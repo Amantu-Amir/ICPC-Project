@@ -89,7 +89,7 @@ int32_t main(){
         ast(v); ast(v2);
         int vl = v.size(), v2l = v2.size();
         int a = min(v2l,vl), x = a, y = v2l;
-        int flag = 0, idx = 0, idx2 = 0, flag = -1;
+        int idx = 0, idx2 = 0, flag = -1;
         while(x != y and x != 0 and y != 0){
             if(v[idx] < v2[idx2] and (flag == 0 or flag == -1)){
                 ans.pb(v[idx]);
